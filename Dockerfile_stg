@@ -1,0 +1,10 @@
+FROM node:16-slim
+ENV PORT 3000
+WORKDIR /app
+COPY package.json .
+RUN npm install --production
+COPY . .
+# ENV NODE_ENV stg
+COPY ./next.config_stg.js ./next.config.js
+RUN npm run build
+CMD ["npm", "run", "start"]

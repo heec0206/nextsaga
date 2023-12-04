@@ -1,0 +1,14 @@
+variables:
+  - group: dev-aws-access
+  - name: PROJECT_NAME
+    value: etrend
+  - name: AWS_ACCOUNT_ID
+    value: 454915266927
+  - name: AWS_REGION
+    value: ap-northeast-2
+  - name: IMAGE_NAME
+    value: etrend-frontend
+  - name: ENVIREMENT
+    value: dev
+  - name: DOCKER_REPOSITORY
+    value: $(AWS_ACCOUNT_ID).dkr.ecr.$(AWS_REGION).amazonaws.com/$(PROJECT_NAME)/$(ENVIREMENT)/image/$(IMAGE_NAME)

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="36" viewBox="0 0 28 36">
+  <g id="펼치기" transform="translate(-330 -141)">
+    <path id="사각형_2359" data-name="사각형 2359" d="M0,0H28a0,0,0,0,1,0,0V28a8,8,0,0,1-8,8H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(330 141)" fill="#202f51"/>
+    <g id="icon" transform="translate(334 149)">
+      <rect id="area" width="20" height="20" fill="none"/>
+      <path id="menu_open_FILL0_wght700_GRAD0_opsz48" d="M96,318v-1.926H85.3V318Zm-14.568-1.147,4.553-4.363-4.007-3.84-.524-.5-1.432,1.372,3.1,2.97L80,315.48ZM96,313.432v-1.926H87.866v1.926Zm0-4.486V307H85.3v1.946Z" transform="translate(-78 -302)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

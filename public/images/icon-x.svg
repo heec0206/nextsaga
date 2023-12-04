@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="icon" transform="translate(0 -0.299)">
+    <rect id="icon_area" data-name="icon area" width="20" height="20" transform="translate(0 0.299)" fill="none"/>
+    <path id="x" d="M3.5,3.5,0,7,3.5,3.5,0,0,3.5,3.5,7,0,3.5,3.5,7,7Z" transform="translate(7 7.299)" fill="none" stroke="#666" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,40 @@
+name: $(Date:yyyyMMdd)$(Rev:-r)
+
+trigger:
+  branches:
+    include:
+    - 'refs/tags/deploy-prd*'
+  paths:
+    include:
+    - /
+    exclude:
+    - /pipeline
+
+resources:
+  repositories:
+  - repository: etrend-app-helm
+    type: git
+    name: etrend/etrend-app-helm
+    ref: refs/heads/main
+
+stages:
+- stage: stage1
+  pool:
+    vmImage: ubuntu-latest
+  jobs:
+  - job: job1
+    displayName: 'AWS ECR Image Push'
+    variables:
+    - template: ./prd/variables.yaml
+    steps:
+    - template: ./prd/stage1_job1_steps.yaml
+- stage: stage2
+  pool:
+    vmImage: ubuntu-latest
+  jobs:
+  - job: job1
+    displayName: 'Update Image Tag'
+    variables:
+    - template: ./prd/variables.yaml
+    steps:
+    - template: ./prd/stage2_job1_steps_by_helm.yaml

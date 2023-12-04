@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0 0 30 30">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_2773" data-name="사각형 2773" width="30" height="30" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_1042" data-name="그룹 1042" clip-path="url(#clip-path)">
+    <path id="패스_1651" data-name="패스 1651" d="M30,14.975A15,15,0,1,1,15,0,14.988,14.988,0,0,1,30,14.975" transform="translate(0 0)" fill="#14203d"/>
+    <path id="패스_1652" data-name="패스 1652" d="M19.5,10.493A4.5,4.5,0,1,1,15,6a4.5,4.5,0,0,1,4.5,4.493" transform="translate(0 -0.01)" fill="#cbcbcb"/>
+    <path id="패스_1653" data-name="패스 1653" d="M15,29.979a14.946,14.946,0,0,0,10.289-4.1,10.506,10.506,0,0,0-20.578,0A14.946,14.946,0,0,0,15,29.979" transform="translate(0 -0.029)" fill="#cbcbcb"/>
+    <path id="패스_1654" data-name="패스 1654" d="M15,29.979a14.946,14.946,0,0,0,10.289-4.1,10.506,10.506,0,0,0-20.578,0A14.946,14.946,0,0,0,15,29.979Z" transform="translate(0 -0.029)" fill="none" stroke="#cbcbcb" stroke-miterlimit="10" stroke-width="0.1"/>
+  </g>
+</svg>

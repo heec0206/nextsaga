@@ -1,0 +1,24 @@
+.sidemenuBigCategory {
+  padding: 0;
+  /* margin: 10;  */
+  font-size: 12px;
+  color: "#808B96";
+  /* border-width: "2px";
+  border-style: "dashed"; */
+}
+
+.sidemenuMidCategory {
+  padding: 0;
+  font-weight: "normal";
+  font-size: 12px;
+  color: "#808B96";
+  cursor: "pointer";
+}
+
+.sidemenuSmallCategory {
+  padding-top: 5;
+  font-weight: "normal";
+  font-size: 12px;
+  color: "#808B96";
+  cursor: "pointer";
+}

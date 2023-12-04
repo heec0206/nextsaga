@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="icon" width="20" height="20" rx="4" fill="#416df6"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_1283" data-name="그룹 1283" transform="translate(-774 -456)">
+    <g id="그룹_1282" data-name="그룹 1282">
+      <g id="checkbox" transform="translate(775 457)" fill="#416df6" stroke="#416df6" stroke-width="1">
+        <rect width="20" height="20" rx="4" stroke="none"/>
+        <rect x="-0.5" y="-0.5" width="21" height="21" rx="4.5" fill="none"/>
+      </g>
+      <g id="icon-2" data-name="icon" transform="translate(775 457)" clip-path="url(#clip-path)">
+        <path id="check_FILL1_wght700_GRAD0_opsz48" d="M8.332,19.013,3.72,14.234l1.265-1.31,3.348,3.468,7.123-7.38,1.265,1.31Z" transform="translate(0.28 -4.013)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

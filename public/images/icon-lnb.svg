@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="36" viewBox="0 0 28 36">
+  <g id="접기btn" transform="translate(-5)">
+    <path id="사각형_2359" data-name="사각형 2359" d="M0,0H28a0,0,0,0,1,0,0V36a0,0,0,0,1,0,0H8a8,8,0,0,1-8-8V0A0,0,0,0,1,0,0Z" transform="translate(5)" fill="#a5aab1"/>
+    <path id="icon" d="M86.086,319.951,80,313.937l5.357-5.294.7-.692,1.914,1.892-4.143,4.094L88,318.059Z" transform="translate(-65 -295.951)" fill="#fff"/>
+  </g>
+</svg>

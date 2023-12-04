@@ -1,0 +1,23 @@
+steps:
+- checkout: etrend-app-helm
+  persistCredentials: true
+- task: Bash@3
+  displayName: 'Helm Values Changes By sed'
+  inputs:
+    targetType: inline
+    script: |
+      cd $(IMAGE_NAME)/$(ENVIREMENT)
+      ls -altr
+      sed -i 's/tag:.*/tag: $(Build.BuildNumber)/g' ./values.yaml
+      cat ./values.yaml
+- task: Bash@3
+  displayName: 'Git Push Update Image Tag'
+  inputs:
+    targetType: 'inline'
+    script: |
+      cd $(IMAGE_NAME)
+      git config --global user.email "kunops@emart.com"
+      git config --global user.name "kunops"
+      git add .
+      git commit -m "Update image $(IMAGE_NAME) tag $(Build.BuildNumber)"
+      git push origin HEAD:refs/heads/main

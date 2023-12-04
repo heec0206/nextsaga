@@ -1,0 +1,36 @@
+.ag-header-cell-label {
+  justify-content: center;
+  color: #1b6d85;
+  font-weight: bold;
+}
+
+.ag-header-group-cell-label {
+  justify-content: center !important;
+  font-weight: bold;
+}
+
+.ag-header-group-cell {
+  font-size: 20px;
+  color: #1b6d85;
+  font-weight: bold;
+}
+
+.ag-cell-label-container .ag-header-cell-text {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.72px;
+  color: #000000;
+}
+
+/* 
+ .ag-theme-alpine {
+    --ag-foreground-color: rgb(126, 46, 132);
+    --ag-background-color: rgb(249, 245, 227);
+    --ag-header-foreground-color: rgb(204, 245, 172);
+    --ag-header-background-color: rgb(209, 64, 129);
+    --ag-odd-row-background-color: rgb(0, 0, 0, 0.03);
+    --ag-header-column-resize-handle-color: rgb(126, 46, 132);
+
+    --ag-font-size: 17px;
+    --ag-font-family: monospace;
+} */
